@@ -3,30 +3,10 @@
 
 Built on top of <https://github.com/thefirstspine/dependency-auth|@thefirstspine/auth>. Provides Nest services & guard.
 
-## How to use
-
-### Install
+## Install
 
 ```bash
 npm i @thefirstspine/auth-nest@latest
-```
-
-### Build
-
-```bash
-npm run build
-```
-
-### Lint
-
-```bash
-npm run lint
-```
-
-### Publish on NPM
-
-```bash
-npm publish
 ```
 
 ## Configuration
@@ -52,6 +32,26 @@ Validates a JWT to the auth platform service.
 ### AuthGuard
 
 Guard to filter incoming requests that are intend to be signed with a JWT under the `Authorization` HTTP header. Pass the validation when the provided JWT is present & valid in the auth net service.
+
+## How to use
+
+### Build
+
+```bash
+npm run build
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+### Publish on NPM
+
+```bash
+npm publish
+```
 
 ## License
 
