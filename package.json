@@ -1,0 +1,39 @@
+{
+  "name": "@thefirstspine/auth-nest",
+  "version": "1.0.0",
+  "description": "Built on top of @thefirstspine/auth. Provides Nest services & guard.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "peerDependencies": {},
+  "dependencies": {
+    "@nestjs/common": "^7.1.2",
+    "@thefirstspine/auth": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.9",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && tsc -b",
+    "test": "jest",
+    "lint": "eslint ./src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefirstspine/dependency-auth-nest.git"
+  },
+  "author": "Teddy Gandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thefirstspine/dependency-auth-nest/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/thefirstspine/dependency-auth-nest#readme"
+}
