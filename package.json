@@ -1,13 +1,13 @@
 {
   "name": "@thefirstspine/auth-nest",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Built on top of @thefirstspine/auth. Provides Nest services & guard.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "peerDependencies": {},
   "dependencies": {
     "@nestjs/common": "^7.1.2",
-    "@thefirstspine/auth": "^1.0.4"
+    "@thefirstspine/auth": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.0.9",
