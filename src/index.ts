@@ -3,5 +3,6 @@
  * Add statements like: export * from './path/to/file';
  */
 
-export * from './auth.guard';
 export * from './auth/auth.service';
+export * from './auth/auth.module';
+export * from './auth/auth.guard';

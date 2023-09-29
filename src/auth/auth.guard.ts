@@ -1,5 +1,5 @@
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
-import { AuthService } from './auth/auth.service';
+import { AuthService } from './auth.service';
 
 /**
  * Guard to filter incoming requests that are intend to be signed with a JWT under the `Authorization` HTTP header.
