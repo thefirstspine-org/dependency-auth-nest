@@ -1,6 +1,6 @@
 {
   "name": "@thefirstspine/auth-nest",
-  "version": "2.4.5",
+  "version": "2.5.0",
   "description": "Built on top of @thefirstspine/auth. Provides Nest services & guard.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
